@@ -19,22 +19,22 @@ Usage
 
 In order to run the application you need Java 8 and Tomcat 7+.
 
-1. Clone the repository from Github:
+ Clone the repository from Github:
 
 $ git clone git://github.com/stavpap/kalah.git
 
-2. Navigate into the cloned repository directory
+ Navigate into the cloned repository directory
 
 $ cd kalah
 
-3. The project uses Maven to build
+ The project uses Maven to build
 
 $ mvn clean install
 
-4. Launch Tomcat and deploy the war file to it. The target folder with the build and war files is included in the repository.
+ Launch Tomcat and deploy the war file to it. The target folder with the build and war files is included in the repository.
 So for your convenience you can go to this step immediately after cloning the repository
 
-5. Access the deployed webapp at
+ Access the deployed webapp at
 
 http://localhost:8080/kalah
 
