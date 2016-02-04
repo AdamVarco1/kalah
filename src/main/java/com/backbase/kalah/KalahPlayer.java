@@ -15,49 +15,51 @@ import java.io.IOException;
 //The class for describing a player
 public class KalahPlayer {
 
+    //Player's id
     public int id;
+
+    //Player's points
     public int playerPoints;
+
     //Allowed pits to choose for the south and the north player respectively
     int AllowedPits[];
-    //int[] NorthForbiddenPits = {0, 1, 2, 3, 4, 5, 6, 7};
-    
+
+    //Costructor of the player
     KalahPlayer(int playerId) {
         this.id = playerId;
         this.AllowedPits = new int[6];
-        if (this.id == 1){
-            
+        if (this.id == 1) {
+
             AllowedPits[0] = 1;
             AllowedPits[1] = 2;
             AllowedPits[2] = 3;
             AllowedPits[3] = 4;
             AllowedPits[4] = 5;
             AllowedPits[5] = 6;
-          
-        }
-        else
-        {
+
+        } else {
             AllowedPits[0] = 8;
             AllowedPits[1] = 9;
             AllowedPits[2] = 10;
             AllowedPits[3] = 11;
             AllowedPits[4] = 12;
-            AllowedPits[5] = 13; 
+            AllowedPits[5] = 13;
         }
-        
-        
+
     }
 
-    
-    public void points(){
-        
-        if (id == 1)
-        {this.playerPoints = Kalah.gameBoard[7];
-        System.out.println("this.playerPoints");
-        System.out.println(this.playerPoints);}
-        if (id == 2)
-        {this.playerPoints = Kalah.gameBoard[0];
-        System.out.println("this.playerPoints");
-        System.out.println(this.playerPoints);}
+    public void points() {
+
+        if (id == 1) {
+            this.playerPoints = Kalah.gameBoard[7];
+            System.out.println("this.playerPoints");
+            System.out.println(this.playerPoints);
+        }
+        if (id == 2) {
+            this.playerPoints = Kalah.gameBoard[0];
+            System.out.println("this.playerPoints");
+            System.out.println(this.playerPoints);
+        }
     }
 
 }

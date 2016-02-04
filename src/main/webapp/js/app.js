@@ -6,22 +6,22 @@
  */
 
 var kalah = angular.module('kalah', [
-  'ngRoute'
+    'ngRoute'
 ]);
 
 kalah.config(['$routeProvider', '$sceProvider',
-  function($routeProvider, $sceProvider) {
-    
-      $routeProvider.
-      when('/home', {
-        templateUrl: 'partials/home.html',
-        controller: 'HomeCtrl'
-      }).
-      otherwise({
-        redirectTo: '/home'
-      });
+    function ($routeProvider, $sceProvider) {
+
+        $routeProvider.
+                when('/home', {
+                    templateUrl: 'partials/home.html',
+                    controller: 'HomeCtrl'
+                }).
+                otherwise({
+                    redirectTo: '/home'
+                });
         $sceProvider.enabled(false);
 
-  }]);
+    }]);
 
 
