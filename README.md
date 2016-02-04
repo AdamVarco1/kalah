@@ -31,7 +31,8 @@ $ cd kalah
 
 $ mvn clean install
 
-4. Launch Tomcat and deploy the war file to it
+4. Launch Tomcat and deploy the war file to it. The target folder with the build and war files is included in the repository.
+So for your convenience you can go to this step immediately after cloning the repository
 
 5. Access the deployed webapp at
 
