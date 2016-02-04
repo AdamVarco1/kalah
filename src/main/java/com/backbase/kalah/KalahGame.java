@@ -27,7 +27,7 @@ public class KalahGame {
 
         //If one of the players chooses an opponent's pit, has to choose again
         if (player.id == 1) {
-            if (!ArrayUtils.contains(player.AllowedPits, selectedPit)) {
+            if (!ArrayUtils.contains(player.AllowedPits, selectedPit) || Kalah.gameBoard[selectedPit] == 0 ) {
                 System.out.println("wrong!!!");
                 Kalah.flag = 1;
             } //Else make the move
@@ -38,7 +38,7 @@ public class KalahGame {
 
         //If one of the players chooses an opponent's pit, has to choose again
         if (player.id == 2) {
-            if (!ArrayUtils.contains(player.AllowedPits, selectedPit)) {
+            if (!ArrayUtils.contains(player.AllowedPits, selectedPit) || Kalah.gameBoard[selectedPit] == 0) {
                 System.out.println("wrong!!!");
 
                 Kalah.flag = 2;
