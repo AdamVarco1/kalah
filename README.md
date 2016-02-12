@@ -1,10 +1,10 @@
-##Kalah Game
+#Kalah Game
 
 A web application that runs the game of 6-stone Kalah. 
 For the general rules of the game please refer to Wikipedia: https://en.wikipedia.org/wiki/Kalah. 
 This is a Java based project using Maven for building and managing.
 
-#Project's structure
+##Project's structure
 
 This project consists of two parts:
 
@@ -15,7 +15,7 @@ built with JAX-RS and Jersey API.
 2.The front end which is responsible only for taking the user's input, sending it to the server, 
 receiving back the updated board of the game and appear it on the browser. It was implemented with AngularJS.
 
-#Usage
+##Usage
 
 In order to run the application you need Java 8 and Tomcat 7+.
 
