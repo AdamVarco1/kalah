@@ -38,5 +38,7 @@ So for your convenience you can go to this step immediately after cloning the re
 
 http://localhost:8080/kalah
 
+#Screenshots
 
+![Image of kalahWelcome](http://postimg.org/image/9fr96meib/)
  
