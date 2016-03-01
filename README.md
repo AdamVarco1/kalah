@@ -42,3 +42,6 @@ http://localhost:8080/kalah
 
 ![Image of kalahWelcome](http://s13.postimg.org/7b6w5jcvr/kalah_Welcome.png)
  
+![Image of kalahPlay] (http://s7.postimg.org/5pg1sk3gb/kalah_Play.png)
+
+![Image of kalahEnd] (http://s27.postimg.org/vroqfgo1v/kalah_End.png)
