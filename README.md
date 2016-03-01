@@ -40,5 +40,5 @@ http://localhost:8080/kalah
 
 #Screenshots
 
-![Image of kalahWelcome](http://postimg.org/image/9fr96meib/)
+![Image of kalahWelcome](http://s13.postimg.org/7b6w5jcvr/kalah_Welcome.png)
  
